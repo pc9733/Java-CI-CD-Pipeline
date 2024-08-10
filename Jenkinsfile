@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'master', url: 'https://github.com/pc9733/Java-CI-CD-Pipeline.git'
             }
         }
         stage('Build') {
